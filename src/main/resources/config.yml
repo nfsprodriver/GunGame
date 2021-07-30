@@ -1,0 +1,52 @@
+spawnentry:
+  x: 50.0
+  y: 4.0
+  z: 50.0
+  world: world
+
+ggareas:
+  1:
+    world: test_world
+    x1: 75.0
+    x2: 125.0
+    z1: 75.0
+    z2: 125.0
+    entry:
+      x: 100.0
+      y: 5.0
+      z: 100.0
+    options:
+      maxLevel: 5
+      pauseTime: 30
+      playerLives: 3
+
+gglevels:
+  1:
+    Zombie1: 3
+  2:
+    Zombie1: 7
+  3:
+    Zombie1: 10
+  4:
+    Zombie1: 13
+  5:
+    Zombie1: 17
+  6:
+    Zombie1: 20
+
+teams:
+  red: red
+  green: green
+  blue: blue
+  yellow: yellow
+
+zombies:
+  Zombie1:
+    money: 10
+    isBaby: false
+    helmet: IRON_HELMET
+    mainHand: IRON_SWORD
+    drops:
+      BREAD:
+        amount: 3
+        prob: 0.3

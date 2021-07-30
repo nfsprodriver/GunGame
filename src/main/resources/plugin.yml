@@ -1,0 +1,21 @@
+api-version: 1.16
+name: GunGame
+main: com.nfsprodriver.gungame.Main
+version: 1.0.0
+author: nfsprodriver
+database: false
+description: Gun Game plugin
+prefix: "[GunGame]"
+load: STARTUP
+
+commands:
+  ggsign:
+    description: Create GunGame sign
+    usage: /ggsign gg/spawn [areaname]
+  ggsetteam:
+    description: Set team of player
+    usage: /ggsetteam player team
+  ggstopgame:
+    description: Stop a specific game by name
+    usage: /ggstopgame [gamename]
+
